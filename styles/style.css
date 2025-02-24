@@ -37,6 +37,8 @@ li label input {
     width: 0;
 }
 
+
+/* ADD Transitions */
 li:has(:not(:checked)){
     opacity:.5;
 }
