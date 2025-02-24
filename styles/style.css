@@ -45,17 +45,17 @@ li:hover {
     opacity: .8;
 }
 
-/* ul:hover {
-
-} */
-
-/* label:has(:not(:checked)) {
-    background-color: blue;
-    opacity: .5;
-} */
-
 ul li:has(:checked) {
-    background-color: red;
+  
+    /* grid-template-columns: 2fr auto; 
+    grid-template-rows: 2fr auto; */
+    /* grid-column-start: 1;
+    grid-column-end: 3; */
+    /* grid-column-start: auto;
+    grid-column-end: auto; */
     opacity: 1;
+    }
 
-}
+ul li:has(:checked) img {
+    /* max-height: 1rem; */
+    }
